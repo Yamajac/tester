@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Charlotte Connolly - Home</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/yamajac-theme.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Charlotte Connolly</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul id="mainTabs" class="nav navbar-nav">
+            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+            <li><a href="#projects" data-toggle="tab">Projects</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+		<div class="tab-content">
+		
+			<div role="tabpanel" class="tab-pane fade in active" id="home">
+				<div class="container">
+					<div class="jumbotron">
+					<h1>Hey!</h1>
+					<p class="lead">Sometimes I make cool shit, sometimes I stream. Usually I just pretend to do a mixture of both.</p>
+					<p><small>And I never promised it would <i>look</i> good.</small></p>
+					</div>
+				</div><!-- /.container -->
+				<div class="container">
+					<div id="twitchplayer" class="col-md-7"><iframe src="https://player.twitch.tv/?channel=yamajac" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/yamajac?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a></div>
+					<div id="twitchchat" class="col-md-5"><iframe src="https://www.twitch.tv/embed/yamajac/chat" frameborder="0" scrolling="no" height="378" width="350"></iframe></div>
+				</div><!-- /.container -->
+			</div><!-- /#home -->
+			
+			<div role="tabpanel" class="tab-pane fade" id="projects">
+				<div class="container">
+					<div class="page-header">
+						<h1>Projects</h1>
+					</div><!-- /.page-header -->
+				
+					<div class="row row-project">
+						<div class="col-md-3">
+							<a href="http://yamajac.com/projects/ultraname/fucknames.html"><img src="images/fucknames.png" class="img-responsive img-thumbnail img-project"></a>
+						</div><!-- /.col-md-3 -->
+						<div class="col-md-9">
+							<h2 class="project-title">UltraName</h2>
+							<p>A simple javascript and html5 canvas game I made back in 2015 when I was bored one night.</p>
+							<p>The name is bad, the game is bad, it's all bad.</p>
+						</div><!-- /.col-md-9 -->
+					</div><!-- /.row-project -->
+					
+				</div><!-- /.container -->
+			</div><!-- /#projects -->
+			
+		</div><!-- /.tab-content -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<script src="js/yamajac.js"></script>
+  </body>
+</html>
